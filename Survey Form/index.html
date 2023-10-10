@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Company Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Code TechX</h1>
+        <form action="#" method="post">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="jobTitle">Job Title:</label>
+            <select id="jobTitle" name="jobTitle" required>
+                <option value="manager">Manager</option>
+                <option value="engineer">Engineer</option>
+                <option value="analyst">Analyst</option>
+                <option value="sales-representative">Sales Representative</option>
+            </select>
+
+            <label for="department">Department:</label>
+            <select id="department" name="department" required>
+                <option value="hr">Human Resources</option>
+                <option value="marketing">Marketing</option>
+                <option value="sales">Sales</option>
+                <option value="finance">Finance</option>
+                <option value="operations">Operations</option>
+                <option value="it">Information Technology</option>
+            </select>
+
+
+            <label for="satisfaction">How satisfied are you with our products/services?</label>
+            <select id="satisfaction" name="satisfaction">
+                <option value="very-satisfied">Very Satisfied</option>
+                <option value="satisfied">Satisfied</option>
+                <option value="neutral">Neutral</option>
+                <option value="unsatisfied">Unsatisfied</option>
+                <option value="very-unsatisfied">Very Unsatisfied</option>
+            </select>
+
+            <label for="feedback">Please provide any additional feedback or comments:</label>
+            <textarea id="feedback" name="feedback" rows="4"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
